@@ -27,6 +27,7 @@ jobs:
         java-version: '21'
         distribution: 'temurin'
         cache: maven
+        
     - name: Build with Maven
       run: mvn clean install    
       
@@ -34,6 +35,7 @@ jobs:
       run: mvn deploy
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
     - name: Build & push Docker image
       uses: mr-smithers-excellent/docker-build-push@v6
       with:
