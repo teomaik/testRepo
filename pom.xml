@@ -18,9 +18,9 @@
 	<distributionManagement>
     <repository>
         <id>github</id>
-        <url>https://maven.pkg.github.com/YOUR_USERNAME/YOUR_REPOSITORY</url>
+        <url>https://maven.pkg.github.com/teomaik/testRepo</url>
     </repository>
-</distributionManagement>
+	</distributionManagement>
 
 	
 	<url />
